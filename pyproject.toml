@@ -9,6 +9,8 @@ dependencies = [
     "django>=5.2.2",
     "django-extensions>=4.1",
     "django-storages[s3]>=1.14.6",
+    "gunicorn>=23.0.0",
     "psycopg2-binary>=2.9.10",
+    "uvicorn>=0.35.0",
     "whitenoise[brotli]>=6.9.0",
 ]
